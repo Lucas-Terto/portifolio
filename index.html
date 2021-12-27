@@ -117,6 +117,101 @@
                 </div>
             </div>
         </section>
+
+        <section class="sessao-projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="./imagens/proj1.jpg" alt="imagem do projeto ToDo">
+                    </div>
+                    <div class="card-info">
+                        <h2>ToDo List</h2>
+                        <h3>JavaScript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima ad hic natus tempora reiciendis incidunt nam molestiae repudiandae vitae soluta odio ut delectus, commodi quasi sit voluptatum, cupiditate doloremque beatae.</p>   
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="./imagens/proj2.jpg" alt="imagem do projeto Maratona">
+                    </div>
+                    <div class="card-info">
+                        <h2>Maratona</h2>
+                        <h3>HTML, CSS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, odit voluptas dolore autem, officiis porro, adipisci molestias accusantium iste incidunt. Debitis tempora ab at delectus unde necessitatibus magni? Repudiandae!</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="./imagens/proj3.jpg" alt="imagem do projeto Casa Bela">
+                    </div>
+                    <div class="card-info">
+                        <h2>Casa Bela</h2>
+                        <h3>HTML</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur rerum magnam minima? Atque qui et dolorem harum vel iusto, voluptate modi assumenda aspernatur fuga nulla laudantium ducimus, quo fugit alias?</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao-contato">
+            <div class="contato-wrapper">
+                <div class="contato-left">
+
+                </div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button class="btn btn-submit" type="submit">Enviar</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao-orcamento">
+            <div class="orcamento-wrapper">
+                <h1>Faça um orçamento</h1>
+                <form action="">
+                    <label for="qtde">Qtda de Páginas</label>
+                    <input type="number" min="1" name="qtde" id="qtde">
+                    <label for="js">Preciso de um scrip JS</label>
+                    <input type="checkbox" name="js" id="js">
+                    <label>Layout</label>
+                    <div class="group-layout">
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Preciso de um layout</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-nao">Já tenho um layout</label>
+                        </div>
+                        <label for="prazo">prazo</label>
+                        <input type="range" name="prazo" id="prazo">
+                        <button class="btn btn-orcamento" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </div>
 
     <script src="script.js"></script>
